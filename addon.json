@@ -1,0 +1,23 @@
+{
+	"title": "Bad Apple - Entity (Animation Screen)",
+	"type": "entity",
+	"tags": [
+		"fun",
+		"comic"
+	],
+	"ignore": [
+		"*.psd*",
+		"*.vcproj*",
+		"*.svn*",
+		"*.git*",
+		"*LICENSE*",
+		"*.md",
+		"*.code-workspace*",
+		"README.md",
+		".git*",
+		".vscode*",
+		"docs",
+		"version.txt",
+		"*.yml"
+	]
+}
