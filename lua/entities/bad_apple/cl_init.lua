@@ -8,7 +8,7 @@ include('shared.lua')
 	Libraries
 --]]
 local _json = include('json.lua')
-local _bad_apple_fremes = include('data.lua')
+local _bad_apple_frames = include('data.lua')
 
 --[[
 	Constants
@@ -142,7 +142,7 @@ local function AsyncLoadData(ent)
 
 	surface.PlaySound(_sound_progress)
 
-	local frames = _json.parseAsync(_bad_apple_fremes)
+	local frames = _json.parseAsync(_bad_apple_frames)
 
 	surface.PlaySound(_sound_progress_complete)
 
