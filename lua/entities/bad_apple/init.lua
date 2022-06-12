@@ -20,6 +20,6 @@ function ENT:Use(activator, caller, use_type, value)
 	if use_type == USE_ON and activator:IsPlayer() then
 		net.Start('net.badapple.use')
 		net.WriteEntity(self)
-		net.Send(activator)
+		net.Broadcast(activator)
 	end
 end
